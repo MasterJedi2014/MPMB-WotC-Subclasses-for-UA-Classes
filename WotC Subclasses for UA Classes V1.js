@@ -373,7 +373,7 @@ AddSubClass("bard_ua22xc", "college of creation", {
 					range : "Melee (5 ft)",
 					modifiers : ["", "Prof"],
 					abilitytodamage : false,
-					useSpellMod : "bard"
+					useSpellMod : "bard_ua22xc"
 				}],
 				features : [{
 					name : "Variable Size",
@@ -2063,8 +2063,8 @@ AddSubClass("ranger_ua23pt6", "drakewarden", {
 				ac : "14+Prof",
 				hp : 20,
 				hd : [3, 10],
-				hdLinked : ["ranger", "rangerua"],
-				minlevelLinked : ["ranger", "rangerua"],
+				hdLinked : ["ranger", "rangerua", "ranger_ua23pt6"],
+				minlevelLinked : ["ranger", "rangerua", "ranger_ua23pt6"],
 				speed : "40 ft",
 				scores : [16, 12, 15, 8, 14, 8],
 				saves : ["", 3, "", "", 4, ""],
@@ -2181,14 +2181,14 @@ AddSubClass("ranger_ua23pt6", "drakewarden", {
 				description : "Hits all in area; Dex save for half damage; Damage type: acid, cold, fire, lightning, or poison",
 				abilitytodamage : false,
 				dc : true,
-				useSpellMod : "ranger",
+				useSpellMod : "ranger_ua23pt6",
 				DrakewardenDrakeBreath : true
 			},
 			calcChanges : {
 				atkAdd : [
 					function (fields, v) {
-						if (v.theWea.DrakewardenDrakeBreath && (classes.known.rangerua || classes.known.ranger)) {
-							var rngrLvl = classes.known.ranger ? classes.known.ranger.level : classes.known.rangerua.level;
+						if (v.theWea.DrakewardenDrakeBreath && (classes.known.rangerua || classes.known.ranger_ua23pt6)) {
+							var rngrLvl = classes.known.ranger_ua23pt6 ? classes.known.ranger_ua23pt6.level : classes.known.rangerua.level;
 							fields.Damage_Die = (rngrLvl < 15 ? 8 : 10) + 'd6';
 						};
 					},
