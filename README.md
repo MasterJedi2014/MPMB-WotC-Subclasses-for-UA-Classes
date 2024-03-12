@@ -70,6 +70,6 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
 This script will allow users to more easily playtest the upcoming revision to D&D 5E.
 
 **Known Bugs:**
-- No known bugs at this time. Will update when new ones are found (because I am sure there are others in this monster of a file).
+- No known bugs at this time. Will update when any are found.
 
 For instructions on how to add this script to the sheet, please see this page: https://www.flapkan.com/how-to/add-more-content
