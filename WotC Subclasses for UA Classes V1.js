@@ -3,7 +3,7 @@
 	Effect:		This script adds the official WotC subclasses to the 2022-2023 series of Unearthed Arcana articles, altering them to be in accordance with the UA subclass progressions.
 				This file has been compiled by MasterJedi2014, ripping almost all of its code from MPMB and those who have contributed to the sheet's existing material.
 	Code by:	MorePurpleMoreBetter & contributors
-	Date:		2024-03-12 (sheet v13.1.0)
+	Date:		2024-03-20 (sheet v13.1.0)
 */
 
 var iFileName = "WotC Subclasses for UA Classes V1.js";
@@ -433,7 +433,19 @@ AddSubClass("bard_ua22xc", "college of spirits",{
 					range : "60 ft",
 					changes : "I can cast Guidance with a range of 60 ft."
 				}
-			}
+			},
+			spellcastingBonus : {
+				name : "Guiding Whispers",
+				spells : ["guidance ua22cs"],
+				selection : ["guidance ua22cs"],
+				firstCol : "atwill"
+			},
+			spellChanges : {
+				"guidance ua22cs" : {
+					range : "60 ft",
+					changes : "I can cast Guidance with a range of 60 ft."
+				}
+			},
 		},
 		"subclassfeature3.1" : {
 			name : "Spiritual Focus",
@@ -1161,7 +1173,7 @@ AddSubClass("cleric_ua23pt6", "peace domain", {
 	regExpSearch : /^(?=.*(cleric|priest|clergy))(?=.*peace).*$/i,
 	subname : "Peace Domain",
 	source : [["T", 32]],
-	spellcastingExtra : ["heroism", "sanctuary", "aid", "warding bond", "beacon of hope", "sending", "aura of purity", "otiluke's resilient sphere", "greater restoration", "rary's telepathic bond"],
+	spellcastingExtra : ["heroism", "sanctuary", "aid", "aid ua22cs", "warding bond", "beacon of hope", "sending", "aura of purity", "otiluke's resilient sphere", "greater restoration", "rary's telepathic bond"],
 	features : {
 		"subclassfeature3" : {
 			name : "Emboldening Bond",
@@ -1365,6 +1377,7 @@ AddSubClass("cleric_ua23pt6", "city domain-ua", { // Still valid 2021-09-21
 });
 
 // Add Druid subclasses
+// Stars Druid gets the following UA22CS spells: "guidance ua22cs"
 
 
 // Add Fighter subclasses
@@ -1452,7 +1465,7 @@ AddSubClass("paladin_ua23pt6", "oath of the crown", {
 				"The effect ends if I'm incapacitated, die, or it is moved more than 30 ft away from me"
 			]),
 			action : [["bonus action", ""]], // changed to bonus action per errata (v1.0, 2017)
-			spellcastingExtra : ["command", "compelled duel", "warding bond", "zone of truth", "aura of vitality", "spirit guardians", "banishment", "guardian of faith", "circle of power", "geas"]
+			spellcastingExtra : ["command", "compelled duel", "warding bond", "zone of truth", "aura of vitality", "spirit guardians", "banishment", "banishment ua22cs", "guardian of faith", "circle of power", "geas"]
 		},
 		"subclassfeature3.1" : {
 			name : "Channel Divinity: Turn the Tide",
@@ -1506,7 +1519,7 @@ AddSubClass("paladin_ua23pt6", "oath of conquest", {
 				"If failed, a target is frightened for 1 minute; It can save again at the end of each turn"
 			]),
 			action : ["action", ""],
-			spellcastingExtra : ["armor of agathys", "command", "hold person", "spiritual weapon", "bestow curse", "fear", "dominate beast", "stoneskin", "cloudkill", "dominate person"]
+			spellcastingExtra : ["armor of agathys", "command", "hold person", "spiritual weapon", "spiritual weapon ua22cs", "bestow curse", "fear", "dominate beast", "stoneskin", "cloudkill", "dominate person"]
 		},
 		"subclassfeature3.1" : {
 			name : "Channel Divinity: Guided Strike",
@@ -1618,7 +1631,7 @@ AddSubClass("paladin_ua23pt6", "oath of the watchers", {
 			minlevel : 3,
 			description : "\n   As an action, Cha mod of creatures I see in 30 ft adv. on Int/Wis/Cha saves for 1 min",
 			action : [["action", ""]],
-			spellcastingExtra : ["alarm", "detect magic", "moonbeam", "see invisibility", "counterspell", "nondetection", "aura of purity", "banishment", "hold monster", "scrying"]
+			spellcastingExtra : ["alarm", "detect magic", "moonbeam", "see invisibility", "counterspell", "nondetection", "aura of purity", "banishment", "banishment ua22cs", "hold monster", "scrying"]
 		},
 		"subclassfeature3.1" : {
 			name : "Channel Divinity: Abjure the Extraplanar",
@@ -1693,7 +1706,7 @@ AddSubClass("ranger_ua23pt6", "horizon walker", {
 				"I add a spell to my known spells at level 3, 5, 9, 13, and 17",
 				"These count as ranger spells, but do not count against the number of spells I can know"
 			]),
-			spellcastingExtra : ["protection from evil and good", "misty step", "haste", "banishment", "teleportation circle"],
+			spellcastingExtra : ["protection from evil and good", "misty step", "haste", "banishment", "banishment ua22cs", "teleportation circle"],
 			spellcastingExtraApplyNonconform : true
 		},
 		"subclassfeature3.2" : {
@@ -1772,7 +1785,7 @@ AddSubClass("ranger_ua23pt6", "monster slayer", {
 			source : [["X", 43]],
 			minlevel : 3,
 			description : "\n   " + "I get bonus spells known, which do not count against the number of spells I can know",
-			spellcastingExtra : ["protection from evil and good", "zone of truth", "magic circle", "banishment", "hold monster"],
+			spellcastingExtra : ["protection from evil and good", "zone of truth", "magic circle", "banishment", "banishment ua22cs", "hold monster"],
 			spellcastingExtraApplyNonconform : true
 		},
 		"subclassfeature3.2" : {
@@ -2785,6 +2798,7 @@ AddSubClass("rogue_ua23pt6", "the revived-ua", {
 });
 
 // Add Sorcerer subclasses
+// Clockwork Soul Sorcerer gets the following UA22CS spells: "aid ua22cs"
 
 
 // Add Warlock subclasses
