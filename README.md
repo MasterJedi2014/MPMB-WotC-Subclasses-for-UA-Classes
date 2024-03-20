@@ -69,6 +69,10 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
 
 This script will allow users to more easily playtest the upcoming revision to D&D 5E.
 
+**Script Patch Notes:**
+- **2024-03-20:**
+  - Added support for the *UA22CS* spells.
+
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
 
