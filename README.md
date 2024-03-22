@@ -71,7 +71,9 @@ This script will allow users to more easily playtest the upcoming revision to D&
 
 **Script Patch Notes:**
 - **2024-03-20:**
-  - Added support for the *UA22CS* spells.
+  - Added support for the *UA22CS* spells
+- **2024-03-22:**
+  - Updated the *FToD* Drakewarden with the fixes made to it in v13.1.13 of the sheet
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
