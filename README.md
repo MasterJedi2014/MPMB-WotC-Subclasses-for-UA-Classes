@@ -4,8 +4,9 @@ This script adds the official WotC subclasses to the 2022-2023 series of Unearth
 **Script Credit Note:**
 This file has been compiled by MasterJedi2014, ripping almost all of its code from MPMB and those who have contributed to the sheet's existing material. The only things in this script that I can currently take credit for are:
 1. Alterations made to add these subclasses to the UA versions of the classes (adding a suffix to class names);
-2. Alterations made to bring a subclass' level progression in-line with the level progression of the UA versions of the classes (so far this only includes the Cleric);
-3. Alterations made to bring a subclass feature into parity with the UA version of a similar subclass feature (so far only includes the lvl 20 Paladin subclass features aside from the one in Oath of Redemption).
+2. Alterations made to bring a subclass' level progression in-line with the level progression of the UA versions of the classes (so far this includes the Cleric, Sorcerer, Warlock, & Wizard);
+3. Alterations made to bring a subclass feature into parity with the UA version of a similar subclass feature (includes the lvl 20 Paladin subclass features aside from the one in Oath of Redemption, along with the Wizard [SCHOOL OF MAGIC] Savant feature in most of the Wizard subclasses).
+4. The Sorcerer & Warlock subclasses have lots of little to moderate changes to bring them into parity with the UA subclasses; these changes are composed of some mixing & matching of the following: altering of a word or two, adding a spell or two, a major rewording as a result of these classes changing to prepared spellcasting. I did my best to keep any edits in these subclasses to a minimum.
 
 # This script is currently a work in progress & currently only includes the classes that I have coded into the sheets already. It will be updated to include new classes as I code them into the sheets.
 _**This script DOES NOT add the Artificer class because it is not a part of the playtesting for the upcoming revision to 5th Edition.**_
@@ -36,8 +37,18 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Twilight
 - Druid Subclasses:
   - None at the moment
-- Fighter Subclasses:
-  - None at the moment
+- Fighter Subclasses (11):
+  - Arcane Archer
+  - Brute (UA:TS)
+  - Cavalier
+  - Echo Knight
+  - Monster Hunter (UA:GH)
+  - Psi Warrior
+  - Purple Dragon Knight
+  - Rune Knight
+  - Samurai
+  - Scout (UA:KoO)
+  - Sharpshooter (UA:FMA)
 - Monk Subclasses:
   - None at the moment
 - Paladin Subclasses (5):
@@ -60,10 +71,32 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Scout
   - Soulknife
   - The Revived (UA:FRnR)
-- Sorcerer Subclasses:
-  - None at the moment
-- Warlock Subclasses:
-  - None at the moment
+- Sorcerer Subclasses (13):
+  - Aberrant Mind
+  - Clockwork Soul
+  - Divine Soul
+  - Favored Soul (UA:MC) (Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.)
+  - Favored Soul (UA:RS)
+  - Favored Soul (UA:SO)
+  - Giant Soul (UA:GSS) (This is the most heavily altered of the Sorcerer subclasses)
+  - Lunar Socery (Note from MasterJedi2014: This has too many small pieces of custom code that I don't completely understand & I don't want to break, so I have only changed the 1st lvl subclass features to be 3rd lvl subclass features.)
+  - Phoenix Sorcery (UA:SO)
+  - Sea Sorcery (UA:SO)
+  - Shadow Magic
+  - Stone Sorcery (UA:SO)
+  - Storm Sorcery
+- Warlock Subclasses (11):
+  - Fathomless
+  - Genie
+  - Ghost in the Machine (UA:MM)
+  - Hexblade
+  - Lurker in the Deep (UA:SnW)
+  - Noble Genie (UA:SP1)
+  - Raven Queen (UA:WnW)
+  - Seeker (UA:TF)
+  - Undead
+  - Undying
+  - Undying Light (UA:LDU)
 - Wizard Subclasses:
   - None at the moment
 
@@ -74,6 +107,8 @@ This script will allow users to more easily playtest the upcoming revision to D&
   - Added support for the *UA22CS* spells
 - **2024-03-22:**
   - Updated the *FToD* Drakewarden with the fixes made to it in v13.1.13 of the sheet
+- **2024-05-10:**
+  - Added subclasses for the Fighter, Sorcerer, Warlock, & Wizard now that the script for *UA23PT7* is complete
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
