@@ -75,7 +75,7 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Aberrant Mind
   - Clockwork Soul
   - Divine Soul
-  - Favored Soul (UA:MC) (Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.)
+  - ~~Favored Soul (UA:MC) (Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.)~~ *Temporarily Disabled*
   - Favored Soul (UA:RS)
   - Favored Soul (UA:SO)
   - Giant Soul (UA:GSS) (This is the most heavily altered of the Sorcerer subclasses)
@@ -110,7 +110,7 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Psionics (UA:FRnW)
   - School of Invention (UA:TS)
   - Technomancy (UA:MM)
-  - Theurgy (UA:TF)
+  - ~~Theurgy (UA:TF)~~ *Temporarily Disabled*
   - Tradition of Runecrafting (UA:GO)
   - Tradition of the Artificer (UA:E)
   - Transmutation
@@ -125,6 +125,8 @@ This script will allow users to more easily playtest the upcoming revision to D&
   - Updated the *FToD* Drakewarden with the fixes made to it in v13.1.13 of the sheet
 - **2024-05-10:**
   - Added subclasses for the Fighter, Sorcerer, Warlock, & Wizard now that the script for *UA23PT7* is complete
+- **2024-05-11:**
+  - I seem to have messed up the code for the Theurgy Wizard (UA:TF) & Favored Soul Sorcerer (UA:MC), so those have been disabled until I can figure out how to fix them.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
