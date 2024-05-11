@@ -97,8 +97,24 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Undead
   - Undying
   - Undying Light (UA:LDU)
-- Wizard Subclasses:
-  - None at the moment
+- Wizard Subclasses (17):
+  - Bladesinging
+  - Chronurgy Magic
+  - Conjuration
+  - Enchantment
+  - Graviturgy Magic
+  - Lore Master (UA:WnW)
+  - Necromancy
+  - Onomancy (True name magic) (UA:CDnW)
+  - Order of the Scribes
+  - Psionics (UA:FRnW)
+  - School of Invention (UA:TS)
+  - Technomancy (UA:MM)
+  - Theurgy (UA:TF)
+  - Tradition of Runecrafting (UA:GO)
+  - Tradition of the Artificer (UA:E)
+  - Transmutation
+  - War Magic
 
 This script will allow users to more easily playtest the upcoming revision to D&D 5E.
 
