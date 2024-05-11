@@ -5316,7 +5316,7 @@ AddSubClass("sorcerer_ua23pt7", "giant soul-ua", {
 		}
 	}
 });
-RunFunctionAtEnd(function() { //Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.
+/*RunFunctionAtEnd(function() { //Note from MasterJedi2014: This has one large piece of custom code that I think I didn't break by altering, but I might be wrong.
 	var SorcererSubclassFavoredSoul = AddSubClass("sorcerer_ua23pt7", "favored soul-ua", {
 		regExpSearch : /^(?=.*favou?red)(?=.*soul).*$/i,
 		subname : "Favored Soul (UA:MC)",
@@ -5379,7 +5379,7 @@ RunFunctionAtEnd(function() { //Note from MasterJedi2014: This has one large pie
 			};
 		};
 	};
-});
+});*/
 
 // Add Warlock subclasses
 AddSubClass("warlock_ua23pt7", "the undying", {
@@ -7914,7 +7914,7 @@ AddSubClass("wizard_ua23pt7", "runecrafter-ua", {
 		}
 	}
 });
-RunFunctionAtEnd(function() {
+/*RunFunctionAtEnd(function() {
 	var theTheurgySubclass = AddSubClass("wizard_ua23pt7", "theurgy-ua", { // Still valid 2021-09-21
 		regExpSearch : /^((?=.*mystic)(?=.*theurge))|(?=.*(theurgy|theurgist)).*$/i,
 		subname : "Theurgy",
@@ -8071,4 +8071,4 @@ RunFunctionAtEnd(function() {
 			};
 		};
 	};
-});
+});*/
