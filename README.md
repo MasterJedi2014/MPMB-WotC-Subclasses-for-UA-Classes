@@ -8,10 +8,10 @@ This file has been compiled by MasterJedi2014, ripping almost all of its code fr
 3. Alterations made to bring a subclass feature into parity with the UA version of a similar subclass feature (includes the lvl 20 Paladin subclass features aside from the one in Oath of Redemption, along with the Wizard [SCHOOL OF MAGIC] Savant feature in most of the Wizard subclasses).
 4. The Sorcerer & Warlock subclasses have lots of little to moderate changes to bring them into parity with the UA subclasses; these changes are composed of some mixing & matching of the following: altering of a word or two, adding a spell or two, a major rewording as a result of these classes changing to prepared spellcasting. I did my best to keep any edits in these subclasses to a minimum.
 
+# This script needs to be added as the FINAL script the user adds for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
+
 # This script is currently a work in progress & currently only includes the classes that I have coded into the sheets already. It will be updated to include new classes as I code them into the sheets.
 _**This script DOES NOT add the Artificer class because it is not a part of the playtesting for the upcoming revision to 5th Edition.**_
-
-# This script needs to be added as the FINAL script the user adds for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
 
 **Detailed List of Script Content (In alphabetical order):**
 - Bard Subclasses (8):
