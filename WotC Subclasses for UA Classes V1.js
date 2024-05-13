@@ -3,7 +3,7 @@
 	Effect:		This script adds the official WotC subclasses to the 2022-2023 series of Unearthed Arcana articles, altering them to be in accordance with the UA subclass progressions.
 				This file has been compiled by MasterJedi2014, ripping almost all of its code from MPMB and those who have contributed to the sheet's existing material.
 	Code by:	MorePurpleMoreBetter & contributors
-	Date:		2024-05-02 (sheet v13.1.0)
+	Date:		2024-05-13 (sheet v13.1.0)
 */
 
 var iFileName = "WotC Subclasses for UA Classes V1.js";
@@ -5427,10 +5427,10 @@ AddSubClass("warlock_ua23pt7", "the hexblade", { // this code includes contribut
 	source : [["X", 55]],
 	spellcastingExtra : ["shield", "wrathful smite", "wrathful smite ua23pt6", "blur", "branding smite", "blink", "elemental weapon", "phantasmal killer", "staggering smite", "staggering smite ua23pt6", "banishing smite", "banishing smite ua23pt6", "cone of cold"],
 	features : {
-		"subclassfeature1" : {
+		"subclassfeature3" : {
 			name : "Hexblade's Curse",
 			source : [["X", 55]],
-			minlevel : 1,
+			minlevel : 3,
 			description : desc([
 				"As a Bonus Action, I can curse a creature I can see within 30 ft of me for 1 minute",
 				"\u2022 I add my Proficiency Bonus to damage rolls against the cursed target",
@@ -5458,10 +5458,10 @@ AddSubClass("warlock_ua23pt7", "the hexblade", { // this code includes contribut
 					}, ""]
 			}
 		},
-		"subclassfeature1.1" : {
+		"subclassfeature3.1" : {
 			name : "Hex Warrior",
 			source : [["X", 55]],
-			minlevel : 1,
+			minlevel : 3,
 			description : desc([
 				"I gain Proficiency with Medium Armor, Shields, and Martial Weapons",
 				"When I finish a Long Rest, I can imbue one weapon I touch with my will",
