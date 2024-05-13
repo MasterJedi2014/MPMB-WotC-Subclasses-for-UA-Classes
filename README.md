@@ -11,6 +11,8 @@ This file has been compiled by MasterJedi2014, ripping almost all of its code fr
 # This script is currently a work in progress & currently only includes the classes that I have coded into the sheets already. It will be updated to include new classes as I code them into the sheets.
 _**This script DOES NOT add the Artificer class because it is not a part of the playtesting for the upcoming revision to 5th Edition.**_
 
+# This script needs to be added as the FINAL script the user adds for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
+
 **Detailed List of Script Content (In alphabetical order):**
 - Bard Subclasses (8):
   - Creation
@@ -120,13 +122,15 @@ This script will allow users to more easily playtest the upcoming revision to D&
 
 **Script Patch Notes:**
 - **2024-03-20:**
-  - Added support for the *UA22CS* spells
+  - Added support for the *UA22CS* spells.
 - **2024-03-22:**
-  - Updated the *FToD* Drakewarden with the fixes made to it in v13.1.13 of the sheet
+  - Updated the *FToD* Drakewarden with the fixes made to it in v13.1.13 of the sheet.
 - **2024-05-10:**
-  - Added subclasses for the Fighter, Sorcerer, Warlock, & Wizard now that the script for *UA23PT7* is complete
+  - Added subclasses for the Fighter, Sorcerer, Warlock, & Wizard now that the script for *UA23PT7* is complete.
 - **2024-05-11:**
   - I seem to have messed up the code for the Theurgy Wizard (UA:TF) & Favored Soul Sorcerer (UA:MC), so those have been disabled until I can figure out how to fix them.
+- **2024-05-13:**
+  - I found an error in the subclass progression of the Hexblade Warlock that I needed to fix. I have also determined that this file ***needs*** to be loaded into the sheet ***after*** all of the other scripts for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
