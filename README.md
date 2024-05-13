@@ -130,7 +130,8 @@ This script will allow users to more easily playtest the upcoming revision to D&
 - **2024-05-11:**
   - I seem to have messed up the code for the Theurgy Wizard (UA:TF) & Favored Soul Sorcerer (UA:MC), so those have been disabled until I can figure out how to fix them.
 - **2024-05-13:**
-  - I found an error in the subclass progression of the Hexblade Warlock that I needed to fix. I have also determined that this file ***needs*** to be loaded into the sheet ***after*** all of the other scripts for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
+  - I found an error in the subclass progression of the Hexblade Warlock that I needed to fix.
+  - I have also determined that this file ***needs*** to be loaded into the sheet ***after*** all of the other scripts for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
