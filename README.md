@@ -4,13 +4,13 @@ This script adds the official WotC subclasses to the 2022-2023 series of Unearth
 **Script Credit Note:**
 This file has been compiled by MasterJedi2014, ripping almost all of its code from MPMB and those who have contributed to the sheet's existing material. The only things in this script that I can currently take credit for are:
 1. Alterations made to add these subclasses to the UA versions of the classes (adding a suffix to class names);
-2. Alterations made to bring a subclass' level progression in-line with the level progression of the UA versions of the classes (so far this includes the Cleric, Sorcerer, Warlock, & Wizard);
-3. Alterations made to bring a subclass feature into parity with the UA version of a similar subclass feature (includes the lvl 20 Paladin subclass features aside from the one in Oath of Redemption, along with the Wizard [SCHOOL OF MAGIC] Savant feature in most of the Wizard subclasses).
+2. Alterations made to bring a subclass' level progression in-line with the level progression of the UA versions of the classes (this had to be done to the Cleric, Sorcerer, Warlock, & Wizard);
+3. Alterations made to bring a subclass feature into parity with the UA version of a similar subclass feature (examples include the lvl 20 Paladin subclass features aside from the one in Oath of Redemption, along with the Wizard [SCHOOL OF MAGIC] Savant feature in several of the Wizard subclasses).
 4. The Sorcerer & Warlock subclasses have lots of little to moderate changes to bring them into parity with the UA subclasses; these changes are composed of some mixing & matching of the following: altering of a word or two, adding a spell or two, a major rewording as a result of these classes changing to prepared spellcasting. I did my best to keep any edits in these subclasses to a minimum.
+5. The Monk subclasses have had all references to "ki point(s)" replaced with "Discipline Point(s)". They have also all had their names altered from "Way of ..." to "Warrior of ..." to be in accordance with the new Monk subclass naming standard.
+6. The Drunken Master's lvl 17 feature "Intoxicated Frenzy" has been altered to allow for 4 Flurry of Blows strikes instead of 3 since the base Monk class gets 3 Flurry of Blows strikes at lvl 10 now.
 
 # This script needs to be added as the FINAL script the user adds for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
-
-# This script is currently a work in progress & currently only includes the classes that I have coded into the sheets already. It will be updated to include new classes as I code them into the sheets.
 _**This script DOES NOT add the Artificer class because it is not a part of the playtesting for the upcoming revision to 5th Edition.**_
 
 **Detailed List of Script Content (In alphabetical order):**
@@ -23,8 +23,13 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Swords
   - Valor
   - Whispers
-- Barbarian Subclasses:
-  - None at the moment
+- Barbarian Subclasses (6):
+  - Ancestral Guardian
+  - Battlerager
+  - Beast
+  - Giant
+  - Storm Herald
+  - Wild Magic
 - Cleric Subclasses (11):
   - Arcana
   - City (UA:MM)
@@ -37,8 +42,13 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Peace
   - Tempest
   - Twilight
-- Druid Subclasses:
-  - None at the moment
+- Druid Subclasses (7):
+  - Dreams
+  - Spores
+  - the Primeval (UA:GO)
+  - the Stars
+  - Twilight (UA:DC)
+  - WIldfire
 - Fighter Subclasses (11):
   - Arcane Archer
   - Brute (UA:TS)
@@ -51,8 +61,15 @@ _**This script DOES NOT add the Artificer class because it is not a part of the 
   - Samurai
   - Scout (UA:KoO)
   - Sharpshooter (UA:FMA)
-- Monk Subclasses:
-  - None at the moment
+- Monk Subclasses (8):
+  - Mercy
+  - the Ascendant Dragon
+  - the Astral Self
+  - the Drunken Master
+  - the Kensei
+  - the Long Death
+  - the Sun Soul
+  - Tranquility (UA:MMT)
 - Paladin Subclasses (5):
   - Conquest
   - Crown
@@ -132,6 +149,8 @@ This script will allow users to more easily playtest the upcoming revision to D&
 - **2024-05-13:**
   - I found an error in the subclass progression of the Hexblade Warlock that I needed to fix.
   - I have also determined that this file ***needs*** to be loaded into the sheet ***after*** all of the other scripts for the 2022-2023 One D&D/5.1E UA articles, otherwise the sheet runs into errors.
+- **2024-05-22:**
+  - Added subclasses for the Barbarian, Druid, & Monk now that the script for *UA23PT8* is complete.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
