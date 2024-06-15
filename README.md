@@ -1,5 +1,6 @@
 # MPMB-WotC-Subclasses-for-UA-Classes
 This script adds the official WotC subclasses to the 2022-2023 series of Unearthed Arcana articles, altering them to be in accordance with the UA subclass progressions.
+# This script is not to be used if the user is using the "MPMB 5.1E/One D&D UA Content" script (https://github.com/MasterJedi2014/MPMB-5.1E_One-DnD-UA-Content).
 
 **Script Credit Note:**
 This file has been compiled by MasterJedi2014, ripping almost all of its code from MPMB and those who have contributed to the sheet's existing material. The only things in this script that I can currently take credit for are:
